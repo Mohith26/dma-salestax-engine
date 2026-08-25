@@ -1,0 +1,205 @@
+{
+  "comment": "Hand computed golden invoices. Every expected number below was worked out by hand from the committed dataset before running the engine. Rates are basis points; money is integer cents. Stack order is state, county, city, then special districts sorted by id.",
+  "cases": [
+    {
+      "name": "g01_basic_stack_origin_state",
+      "notes": "CD is origin sourced, intrastate sale, so situs is ship_from CI-CD-00-0. Rates on 2023-01-15: ST-CD 573, CO-CD-00 165, CI-CD-00-0 41, SP-CD-00 22, SP-CD-15 42. Gross 10000. 10000*573/10000=573 exact, likewise 165, 41, 22, 42. Tax 843.",
+      "invoice": {
+        "invoice_id": "G01", "date": "2023-01-15",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-CD-00-1",
+        "transaction_type": "sale",
+        "lines": [{"line_id": "1", "category": "electronics", "unit_price_cents": 10000, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 843, "gross_cents": 10000, "total_cents": 10843,
+        "lines": [{"tax_cents": 843, "taxable": true, "breakdown_cents": [573, 165, 41, 22, 42]}]
+      }
+    },
+    {
+      "name": "g02_same_invoice_after_rate_change",
+      "notes": "Same invoice as g01 dated 2024-06-15. SP-CD-00 changed from 22 to 97 bps effective 2024-04-01, everything else unchanged. 10000*97/10000=97. Tax 573+165+41+97+42=918.",
+      "invoice": {
+        "invoice_id": "G02", "date": "2024-06-15",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-CD-00-1",
+        "transaction_type": "sale",
+        "lines": [{"line_id": "1", "category": "electronics", "unit_price_cents": 10000, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 918, "gross_cents": 10000, "total_cents": 10918,
+        "lines": [{"tax_cents": 918, "taxable": true, "breakdown_cents": [573, 165, 41, 97, 42]}]
+      }
+    },
+    {
+      "name": "g03_clothing_threshold_boundary_MW",
+      "notes": "Interstate sale sources to destination CI-MW-00-0. MW exempts clothing under 11000 cents per item. Line 1 at 10999 is exempt. Line 2 at 11000 is fully taxable. Rates on 2023-01-15: ST-MW 693, CO-MW-00 62, CI-MW-00-0 33, SP-MW-01 53. 11000*693/10000=762.3 rounds to 762 (half_up), 68.2 to 68, 36.3 to 36 (half_even), 58.3 to 58 (half_even). Tax 924.",
+      "invoice": {
+        "invoice_id": "G03", "date": "2023-01-15",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-MW-00-0",
+        "transaction_type": "sale",
+        "lines": [
+          {"line_id": "1", "category": "clothing", "unit_price_cents": 10999, "quantity": 1},
+          {"line_id": "2", "category": "clothing", "unit_price_cents": 11000, "quantity": 1}
+        ]
+      },
+      "expected": {
+        "tax_cents": 924, "gross_cents": 21999, "total_cents": 22923,
+        "lines": [
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []},
+          {"tax_cents": 924, "taxable": true, "breakdown_cents": [762, 68, 36, 58]}
+        ]
+      }
+    },
+    {
+      "name": "g04_half_up_tie_and_half_down_state_JN",
+      "notes": "Destination CI-JN-00-0 on 2023-06-01: ST-JN 521 (half_down), CO-JN-00 33 (half_up), CI-JN-00-0 50 (half_up). Gross 2500. 2500*521/10000=130.25 rounds down to 130, 8.25 to 8, and 12.5 is an exact tie under half_up so 13. Tax 151.",
+      "invoice": {
+        "invoice_id": "G04", "date": "2023-06-01",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-JN-00-0",
+        "transaction_type": "sale",
+        "lines": [{"line_id": "1", "category": "electronics", "unit_price_cents": 2500, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 151, "gross_cents": 2500, "total_cents": 2651,
+        "lines": [{"tax_cents": 151, "taxable": true, "breakdown_cents": [130, 8, 13]}]
+      }
+    },
+    {
+      "name": "g05_half_down_tie_city_CD",
+      "notes": "Origin sourced intrastate CD sale from CI-CD-00-1, situs CI-CD-00-1. On 2023-08-01: ST-CD 573, CO-CD-00 165, CI-CD-00-1 164 (half_down, effective 2023-07-01). Gross 1250. 71.625 rounds to 72, 20.625 to 21, and 1250*164/10000=20.5 is an exact tie under half_down so 20. Tax 113.",
+      "invoice": {
+        "invoice_id": "G05", "date": "2023-08-01",
+        "ship_from": "CI-CD-00-1", "ship_to": "CI-CD-00-0",
+        "transaction_type": "sale",
+        "lines": [{"line_id": "1", "category": "electronics", "unit_price_cents": 1250, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 113, "gross_cents": 1250, "total_cents": 1363,
+        "lines": [{"tax_cents": 113, "taxable": true, "breakdown_cents": [72, 21, 20]}]
+      }
+    },
+    {
+      "name": "g06_grocery_exemption_mixed_invoice",
+      "notes": "Interstate to CI-CD-00-0 (destination because interstate). CD exempts groceries; prepared_food is taxable. Taxable gross 5000*2=10000 gives the same 843 stack as g01.",
+      "invoice": {
+        "invoice_id": "G06", "date": "2023-01-15",
+        "ship_from": "CI-MW-00-0", "ship_to": "CI-CD-00-0",
+        "transaction_type": "sale",
+        "lines": [
+          {"line_id": "1", "category": "groceries", "unit_price_cents": 10000, "quantity": 1},
+          {"line_id": "2", "category": "prepared_food", "unit_price_cents": 5000, "quantity": 2}
+        ]
+      },
+      "expected": {
+        "tax_cents": 843, "gross_cents": 20000, "total_cents": 20843,
+        "lines": [
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []},
+          {"tax_cents": 843, "taxable": true, "breakdown_cents": [573, 165, 41, 22, 42]}
+        ]
+      }
+    },
+    {
+      "name": "g07_saas_taxable_in_CD",
+      "notes": "SaaS is taxable in CD. Gross 120000 on 2023-01-15 at CI-CD-00-0: 120000*573/10000=6876 exact, then 1980, 492, 264, 504. Tax 10116.",
+      "invoice": {
+        "invoice_id": "G07", "date": "2023-01-15",
+        "ship_from": "CI-MW-00-0", "ship_to": "CI-CD-00-0",
+        "transaction_type": "sale",
+        "lines": [{"line_id": "1", "category": "saas", "unit_price_cents": 120000, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 10116, "gross_cents": 120000, "total_cents": 130116,
+        "lines": [{"tax_cents": 10116, "taxable": true, "breakdown_cents": [6876, 1980, 492, 264, 504]}]
+      }
+    },
+    {
+      "name": "g08_nonprofit_certificate_full_exemption",
+      "notes": "CERT-001 is a nonprofit certificate covering all categories, valid 2021-01-01 to 2026-12-31. Electronics line is exempted by the certificate; groceries line is exempt by the matrix anyway. Tax 0.",
+      "invoice": {
+        "invoice_id": "G08", "date": "2023-01-15",
+        "ship_from": "CI-MW-00-0", "ship_to": "CI-CD-00-0",
+        "transaction_type": "sale",
+        "exemption_certificate": "CERT-001",
+        "lines": [
+          {"line_id": "1", "category": "electronics", "unit_price_cents": 10000, "quantity": 1},
+          {"line_id": "2", "category": "groceries", "unit_price_cents": 4000, "quantity": 1}
+        ]
+      },
+      "expected": {
+        "tax_cents": 0, "gross_cents": 14000, "total_cents": 14000,
+        "lines": [
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []},
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []}
+        ]
+      }
+    },
+    {
+      "name": "g09_expired_certificate_charges_tax",
+      "notes": "CERT-000 (resale, covers electronics) expired 2024-12-31, invoice dated 2025-03-01, so tax is charged. Origin sourced situs CI-CD-00-0. SP-CD-00 is 47 bps from 2025-01-01. Tax 573+165+41+47+42=868.",
+      "invoice": {
+        "invoice_id": "G09", "date": "2025-03-01",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-CD-00-1",
+        "transaction_type": "sale",
+        "exemption_certificate": "CERT-000",
+        "lines": [{"line_id": "1", "category": "electronics", "unit_price_cents": 10000, "quantity": 1}]
+      },
+      "expected": {
+        "tax_cents": 868, "gross_cents": 10000, "total_cents": 10868,
+        "lines": [{"tax_cents": 868, "taxable": true, "breakdown_cents": [573, 165, 41, 47, 42]}]
+      }
+    },
+    {
+      "name": "g10_use_tax_accrual_at_destination",
+      "notes": "Use tax always accrues at destination CI-MW-00-0 even though ship_from state CD is origin sourced. Gross 50000 on 2023-01-15: 3465 exact, 310, 165, 265. Tax 4205, flagged as accrual.",
+      "invoice": {
+        "invoice_id": "G10", "date": "2023-01-15",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-MW-00-0",
+        "transaction_type": "use",
+        "lines": [{"line_id": "1", "category": "furniture", "unit_price_cents": 25000, "quantity": 2}]
+      },
+      "expected": {
+        "tax_cents": 4205, "gross_cents": 50000, "total_cents": 54205, "accrual": true,
+        "lines": [{"tax_cents": 4205, "taxable": true, "breakdown_cents": [3465, 310, 165, 265]}]
+      }
+    },
+    {
+      "name": "g11_HC_threshold_with_time_travel_rates",
+      "notes": "Destination CI-HC-00-0 on 2024-02-01: ST-HC 437 (dropped from 487 on 2024-01-01), CO-HC-00 29, CI-HC-00-0 25 (in effect 2023-10-01 to 2024-04-01). HC exempts clothing under 17500. Line 1 at 17499 exempt. Line 2: 17500*2=35000 gross, 35000*437/10000=1529.5 tie half_up 1530, 101.5 to 102, 87.5 to 88. Tax 1720.",
+      "invoice": {
+        "invoice_id": "G11", "date": "2024-02-01",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-HC-00-0",
+        "transaction_type": "sale",
+        "lines": [
+          {"line_id": "1", "category": "clothing", "unit_price_cents": 17499, "quantity": 1},
+          {"line_id": "2", "category": "clothing", "unit_price_cents": 17500, "quantity": 2}
+        ]
+      },
+      "expected": {
+        "tax_cents": 1720, "gross_cents": 52499, "total_cents": 54219,
+        "lines": [
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []},
+          {"tax_cents": 1720, "taxable": true, "breakdown_cents": [1530, 102, 88]}
+        ]
+      }
+    },
+    {
+      "name": "g12_JN_clothing_fully_exempt",
+      "notes": "JN exempts clothing entirely. Books line reuses the g04 stack: 130, 8, 13 for gross 2500. Tax 151.",
+      "invoice": {
+        "invoice_id": "G12", "date": "2023-06-01",
+        "ship_from": "CI-CD-00-0", "ship_to": "CI-JN-00-0",
+        "transaction_type": "sale",
+        "lines": [
+          {"line_id": "1", "category": "clothing", "unit_price_cents": 50000, "quantity": 1},
+          {"line_id": "2", "category": "books", "unit_price_cents": 2500, "quantity": 1}
+        ]
+      },
+      "expected": {
+        "tax_cents": 151, "gross_cents": 52500, "total_cents": 52651,
+        "lines": [
+          {"tax_cents": 0, "taxable": false, "breakdown_cents": []},
+          {"tax_cents": 151, "taxable": true, "breakdown_cents": [130, 8, 13]}
+        ]
+      }
+    }
+  ]
+}
