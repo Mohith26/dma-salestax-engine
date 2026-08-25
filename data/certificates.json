@@ -1,0 +1,127 @@
+{
+ "certificates": [
+  {
+   "categories": [
+    "electronics",
+    "furniture",
+    "raw_materials",
+    "physical_software",
+    "office_supplies"
+   ],
+   "id": "CERT-000",
+   "kind": "resale",
+   "valid_from": "2021-01-01",
+   "valid_to": "2024-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-001",
+   "kind": "nonprofit",
+   "valid_from": "2021-01-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-002",
+   "kind": "government",
+   "valid_from": "2021-01-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "machinery",
+    "raw_materials"
+   ],
+   "id": "CERT-003",
+   "kind": "manufacturing",
+   "valid_from": "2021-01-01",
+   "valid_to": "2024-12-31"
+  },
+  {
+   "categories": [
+    "electronics",
+    "furniture",
+    "raw_materials",
+    "physical_software",
+    "office_supplies"
+   ],
+   "id": "CERT-004",
+   "kind": "resale",
+   "valid_from": "2021-01-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-005",
+   "kind": "nonprofit",
+   "valid_from": "2021-01-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-006",
+   "kind": "government",
+   "valid_from": "2021-01-01",
+   "valid_to": "2024-12-31"
+  },
+  {
+   "categories": [
+    "machinery",
+    "raw_materials"
+   ],
+   "id": "CERT-007",
+   "kind": "manufacturing",
+   "valid_from": "2021-01-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "electronics",
+    "furniture",
+    "raw_materials",
+    "physical_software",
+    "office_supplies"
+   ],
+   "id": "CERT-008",
+   "kind": "resale",
+   "valid_from": "2024-06-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-009",
+   "kind": "nonprofit",
+   "valid_from": "2024-06-01",
+   "valid_to": "2024-12-31"
+  },
+  {
+   "categories": [
+    "*"
+   ],
+   "id": "CERT-010",
+   "kind": "government",
+   "valid_from": "2024-06-01",
+   "valid_to": "2026-12-31"
+  },
+  {
+   "categories": [
+    "machinery",
+    "raw_materials"
+   ],
+   "id": "CERT-011",
+   "kind": "manufacturing",
+   "valid_from": "2024-06-01",
+   "valid_to": "2026-12-31"
+  }
+ ]
+}

@@ -1,0 +1,1136 @@
+{
+ "categories": [
+  "groceries",
+  "prepared_food",
+  "candy",
+  "soda",
+  "clothing",
+  "footwear",
+  "saas",
+  "downloadable_software",
+  "physical_software",
+  "electronics",
+  "furniture",
+  "books",
+  "digital_books",
+  "medical_devices",
+  "otc_drugs",
+  "prescription_drugs",
+  "cleaning_services",
+  "consulting_services",
+  "machinery",
+  "raw_materials",
+  "luxury_goods",
+  "office_supplies"
+ ],
+ "matrix": {
+  "BK": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "taxable"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "CD": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "EW": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "FW": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "exempt",
+    "reason": "digital goods exemption"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "GL": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "HC": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "threshold",
+    "note": "per item clothing exemption under 175.00",
+    "threshold_cents": 17500
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "exempt",
+    "reason": "digital goods exemption"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "IV": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "JN": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "exempt",
+    "reason": "clothing fully exempt"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "KE": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "LK": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "taxable"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "taxable"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "MW": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "threshold",
+    "note": "per item clothing exemption under 110.00",
+    "threshold_cents": 11000
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "exempt",
+    "reason": "digital goods exemption"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "threshold",
+    "note": "per item footwear exemption under 110.00",
+    "threshold_cents": 11000
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "OS": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "taxable"
+   },
+   "digital_books": {
+    "kind": "exempt",
+    "reason": "digital goods exemption"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "QL": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "TS": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "taxable"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "exempt",
+    "reason": "grocery exemption"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "exempt",
+    "reason": "manufacturing machinery exemption"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "taxable"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "exempt",
+    "reason": "electronically delivered software not enumerated as taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  },
+  "VD": {
+   "books": {
+    "kind": "taxable"
+   },
+   "candy": {
+    "kind": "taxable"
+   },
+   "cleaning_services": {
+    "kind": "taxable"
+   },
+   "clothing": {
+    "kind": "taxable"
+   },
+   "consulting_services": {
+    "kind": "exempt",
+    "reason": "professional services not enumerated"
+   },
+   "digital_books": {
+    "kind": "taxable"
+   },
+   "downloadable_software": {
+    "kind": "taxable"
+   },
+   "electronics": {
+    "kind": "taxable"
+   },
+   "footwear": {
+    "kind": "taxable"
+   },
+   "furniture": {
+    "kind": "taxable"
+   },
+   "groceries": {
+    "kind": "taxable"
+   },
+   "luxury_goods": {
+    "kind": "taxable"
+   },
+   "machinery": {
+    "kind": "taxable"
+   },
+   "medical_devices": {
+    "kind": "exempt",
+    "reason": "medical device exemption"
+   },
+   "office_supplies": {
+    "kind": "taxable"
+   },
+   "otc_drugs": {
+    "kind": "exempt",
+    "reason": "over the counter drug exemption"
+   },
+   "physical_software": {
+    "kind": "taxable"
+   },
+   "prepared_food": {
+    "kind": "taxable"
+   },
+   "prescription_drugs": {
+    "kind": "exempt",
+    "reason": "prescription drug exemption"
+   },
+   "raw_materials": {
+    "kind": "exempt",
+    "reason": "resale component exemption"
+   },
+   "saas": {
+    "kind": "taxable"
+   },
+   "soda": {
+    "kind": "taxable"
+   }
+  }
+ }
+}

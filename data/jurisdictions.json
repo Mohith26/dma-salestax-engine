@@ -1,0 +1,4077 @@
+{
+ "jurisdictions": [
+  {
+   "id": "ST-CD",
+   "level": "state",
+   "name": "Caldera",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 573
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "origin",
+   "state": "CD"
+  },
+  {
+   "id": "CO-CD-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 165
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-00-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-CD-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 41
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-00-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-CD-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 114
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 164
+    }
+   ],
+   "rounding": "half_down",
+   "state": "CD"
+  },
+  {
+   "id": "CO-CD-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 50
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_even",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-01-0",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-CD-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 50
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-01-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-CD-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CO-CD-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 130
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 230
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-02-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-CD-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 74
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 99
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-02-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-CD-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 204
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 229
+    }
+   ],
+   "rounding": "half_even",
+   "state": "CD"
+  },
+  {
+   "id": "CO-CD-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 119
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 69
+    }
+   ],
+   "rounding": "half_down",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-CD-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 164
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 114
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 139
+    }
+   ],
+   "rounding": "half_even",
+   "state": "CD"
+  },
+  {
+   "id": "CI-CD-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-CD-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 221
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 296
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 271
+    }
+   ],
+   "rounding": "half_down",
+   "state": "CD"
+  },
+  {
+   "id": "ST-MW",
+   "level": "state",
+   "name": "Marlowe",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 693
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 743
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "MW"
+  },
+  {
+   "id": "CO-MW-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 62
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 137
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-00-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-MW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 33
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 108
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 208
+    }
+   ],
+   "rounding": "half_even",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-00-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-MW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 144
+    }
+   ],
+   "rounding": "half_down",
+   "state": "MW"
+  },
+  {
+   "id": "CO-MW-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 135
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 210
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 235
+    }
+   ],
+   "rounding": "half_down",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-01-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-MW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 150
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 250
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-01-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-MW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 29
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 54
+    }
+   ],
+   "rounding": "half_down",
+   "state": "MW"
+  },
+  {
+   "id": "CO-MW-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 39
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 89
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-MW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 16
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 116
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 141
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-02-1",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-MW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 199
+    }
+   ],
+   "rounding": "half_down",
+   "state": "MW"
+  },
+  {
+   "id": "CO-MW-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 184
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 234
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 284
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-03-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-MW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 73
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 98
+    }
+   ],
+   "rounding": "half_down",
+   "state": "MW"
+  },
+  {
+   "id": "CI-MW-03-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-MW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 107
+    }
+   ],
+   "rounding": "half_up",
+   "state": "MW"
+  },
+  {
+   "id": "ST-TS",
+   "level": "state",
+   "name": "Tessara",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 625
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 650
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "TS"
+  },
+  {
+   "id": "CO-TS-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 180
+    }
+   ],
+   "rounding": "half_up",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-00-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-TS-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 184
+    }
+   ],
+   "rounding": "half_even",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-00-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-TS-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 76
+    }
+   ],
+   "rounding": "half_even",
+   "state": "TS"
+  },
+  {
+   "id": "CO-TS-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 80
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 105
+    }
+   ],
+   "rounding": "half_up",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-01-0",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-TS-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 2
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 52
+    }
+   ],
+   "rounding": "half_up",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-01-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-TS-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 140
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 115
+    }
+   ],
+   "rounding": "half_up",
+   "state": "TS"
+  },
+  {
+   "id": "CO-TS-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 42
+    }
+   ],
+   "rounding": "half_up",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-02-0",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-TS-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 153
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 253
+    }
+   ],
+   "rounding": "half_even",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-02-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-TS-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "id": "CO-TS-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 178
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-TS-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 14
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 39
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 89
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "id": "CI-TS-03-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-TS-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 128
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 203
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "id": "ST-VD",
+   "level": "state",
+   "name": "Verdant",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 613
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 663
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 638
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "VD"
+  },
+  {
+   "id": "CO-VD-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 53
+    }
+   ],
+   "rounding": "half_even",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-00-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-VD-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_even",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-00-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-VD-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 134
+    }
+   ],
+   "rounding": "half_down",
+   "state": "VD"
+  },
+  {
+   "id": "CO-VD-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 149
+    }
+   ],
+   "rounding": "half_down",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-01-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-VD-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 223
+    }
+   ],
+   "rounding": "half_even",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-01-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-VD-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 175
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CO-VD-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 59
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 34
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 134
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-02-0",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-VD-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 245
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 320
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-02-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-VD-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 186
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CO-VD-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 93
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 143
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 168
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-03-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-VD-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 148
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "CI-VD-03-1",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-VD-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 165
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 190
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "id": "ST-OS",
+   "level": "state",
+   "name": "Ostara",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 556
+    }
+   ],
+   "rounding": "half_even",
+   "sourcing": "origin",
+   "state": "OS"
+  },
+  {
+   "id": "CO-OS-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 125
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-00-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-OS-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 65
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 40
+    }
+   ],
+   "rounding": "half_even",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-00-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-OS-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 11
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 36
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 111
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CO-OS-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 76
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 151
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-01-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-OS-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 106
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 56
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 31
+    }
+   ],
+   "rounding": "half_down",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-01-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-OS-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 24
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CO-OS-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 131
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 231
+    }
+   ],
+   "rounding": "half_down",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-02-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-OS-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 92
+    }
+   ],
+   "rounding": "half_even",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-02-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-OS-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 73
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CO-OS-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 31
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 81
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-OS-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 33
+    }
+   ],
+   "rounding": "half_even",
+   "state": "OS"
+  },
+  {
+   "id": "CI-OS-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-OS-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 123
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "id": "ST-QL",
+   "level": "state",
+   "name": "Quillon",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 547
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 522
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "QL"
+  },
+  {
+   "id": "CO-QL-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 173
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 198
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-00-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-QL-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 209
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 159
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-QL-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 214
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 189
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 164
+    }
+   ],
+   "rounding": "half_down",
+   "state": "QL"
+  },
+  {
+   "id": "CO-QL-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 57
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 82
+    }
+   ],
+   "rounding": "half_even",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-01-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-QL-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 6
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 106
+    }
+   ],
+   "rounding": "half_down",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-01-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-QL-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CO-QL-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 75
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-02-0",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-QL-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 188
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 288
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-02-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-QL-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 66
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 116
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 141
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CO-QL-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 193
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-03-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-QL-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 100
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 150
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 225
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "id": "CI-QL-03-1",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-QL-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 189
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 214
+    }
+   ],
+   "rounding": "half_down",
+   "state": "QL"
+  },
+  {
+   "id": "ST-BK",
+   "level": "state",
+   "name": "Brackenridge",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 707
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 682
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 657
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "origin",
+   "state": "BK"
+  },
+  {
+   "id": "CO-BK-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 111
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 186
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-00-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-BK-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-BK-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 53
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 103
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CO-BK-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 200
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-01-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-BK-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 42
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 67
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-01-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-BK-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 124
+    }
+   ],
+   "rounding": "half_down",
+   "state": "BK"
+  },
+  {
+   "id": "CO-BK-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 160
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 135
+    }
+   ],
+   "rounding": "half_down",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-BK-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 30
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 130
+    }
+   ],
+   "rounding": "half_down",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-02-1",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-BK-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 225
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 250
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CO-BK-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 44
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-BK-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 222
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 272
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 322
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "id": "CI-BK-03-1",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-BK-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 38
+    }
+   ],
+   "rounding": "half_down",
+   "state": "BK"
+  },
+  {
+   "id": "ST-EW",
+   "level": "state",
+   "name": "Ellsworth",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 575
+    }
+   ],
+   "rounding": "half_down",
+   "sourcing": "destination",
+   "state": "EW"
+  },
+  {
+   "id": "CO-EW-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 147
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 172
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 222
+    }
+   ],
+   "rounding": "half_down",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-00-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-EW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 108
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-EW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 75
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CO-EW-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 97
+    }
+   ],
+   "rounding": "half_down",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-01-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-EW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 100
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-01-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-EW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 83
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 108
+    }
+   ],
+   "rounding": "half_even",
+   "state": "EW"
+  },
+  {
+   "id": "CO-EW-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 118
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-02-0",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-EW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 27
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 127
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-02-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-EW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "CO-EW-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 47
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 22
+    }
+   ],
+   "rounding": "half_even",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-EW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 247
+    }
+   ],
+   "rounding": "half_even",
+   "state": "EW"
+  },
+  {
+   "id": "CI-EW-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-EW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 243
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 293
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "id": "ST-FW",
+   "level": "state",
+   "name": "Fenwick",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 558
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 658
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "FW"
+  },
+  {
+   "id": "CO-FW-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 152
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-00-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-FW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 230
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-FW-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 232
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 307
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "CO-FW-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-01-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-FW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 100
+    }
+   ],
+   "rounding": "half_down",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-01-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-FW-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 26
+    }
+   ],
+   "rounding": "half_down",
+   "state": "FW"
+  },
+  {
+   "id": "CO-FW-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 111
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 186
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 236
+    }
+   ],
+   "rounding": "half_even",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-FW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 103
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 153
+    }
+   ],
+   "rounding": "half_even",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-02-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-FW-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 140
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 165
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "CO-FW-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 31
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 6
+    }
+   ],
+   "rounding": "half_down",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-03-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-FW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 107
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 132
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 207
+    }
+   ],
+   "rounding": "half_down",
+   "state": "FW"
+  },
+  {
+   "id": "CI-FW-03-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-FW-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 133
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 183
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "id": "ST-GL",
+   "level": "state",
+   "name": "Galena",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 575
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "origin",
+   "state": "GL"
+  },
+  {
+   "id": "CO-GL-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 103
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 53
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 78
+    }
+   ],
+   "rounding": "half_down",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-00-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-GL-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 157
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 107
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-00-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-GL-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 207
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 257
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CO-GL-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 192
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 142
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-01-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-GL-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 184
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 284
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 234
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-01-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-GL-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 221
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CO-GL-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 138
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-GL-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 176
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 276
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-02-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-GL-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 154
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 104
+    }
+   ],
+   "rounding": "half_even",
+   "state": "GL"
+  },
+  {
+   "id": "CO-GL-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 155
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 230
+    }
+   ],
+   "rounding": "half_even",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-GL-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 133
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 233
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "id": "CI-GL-03-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-GL-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 34
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 134
+    }
+   ],
+   "rounding": "half_even",
+   "state": "GL"
+  },
+  {
+   "id": "ST-HC",
+   "level": "state",
+   "name": "Halcyon",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 487
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 437
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 487
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "HC"
+  },
+  {
+   "id": "CO-HC-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 79
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 29
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 54
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-00-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-HC-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 25
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-00-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-HC-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 239
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 289
+    }
+   ],
+   "rounding": "half_even",
+   "state": "HC"
+  },
+  {
+   "id": "CO-HC-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 106
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 156
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-01-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-HC-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 132
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 232
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-01-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-HC-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 139
+    }
+   ],
+   "rounding": "half_down",
+   "state": "HC"
+  },
+  {
+   "id": "CO-HC-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-02-0",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-HC-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 240
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 290
+    }
+   ],
+   "rounding": "half_down",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-02-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-HC-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 210
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CO-HC-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 195
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 245
+    }
+   ],
+   "rounding": "half_even",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-03-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-HC-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 1
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 76
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "CI-HC-03-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-HC-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 142
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 117
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "id": "ST-IV",
+   "level": "state",
+   "name": "Ironvale",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 573
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 523
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "IV"
+  },
+  {
+   "id": "CO-IV-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 54
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 129
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-00-0",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-IV-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 215
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 190
+    }
+   ],
+   "rounding": "half_down",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-IV-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 221
+    }
+   ],
+   "rounding": "half_even",
+   "state": "IV"
+  },
+  {
+   "id": "CO-IV-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 32
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-01-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-IV-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-01-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-IV-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 65
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "CO-IV-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 75
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_even",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-IV-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 127
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 227
+    }
+   ],
+   "rounding": "half_down",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-02-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-IV-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 96
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 121
+    }
+   ],
+   "rounding": "half_down",
+   "state": "IV"
+  },
+  {
+   "id": "CO-IV-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 140
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 240
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-03-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-IV-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 161
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 211
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 311
+    }
+   ],
+   "rounding": "half_even",
+   "state": "IV"
+  },
+  {
+   "id": "CI-IV-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-IV-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 66
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 91
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 141
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "id": "ST-JN",
+   "level": "state",
+   "name": "Juniper",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 471
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 521
+    }
+   ],
+   "rounding": "half_down",
+   "sourcing": "destination",
+   "state": "JN"
+  },
+  {
+   "id": "CO-JN-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 33
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-00-0",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-JN-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 100
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 50
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-00-1",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-JN-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 185
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 160
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CO-JN-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 45
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-01-0",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-JN-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 243
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 293
+    }
+   ],
+   "rounding": "half_even",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-01-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-JN-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 53
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 103
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CO-JN-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 111
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-02-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-JN-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 166
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 266
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 291
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-02-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-JN-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 113
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CO-JN-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 92
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 142
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-03-0",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-JN-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 105
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 205
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 280
+    }
+   ],
+   "rounding": "half_even",
+   "state": "JN"
+  },
+  {
+   "id": "CI-JN-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-JN-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 115
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 215
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "id": "ST-KE",
+   "level": "state",
+   "name": "Kestrel",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 431
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 506
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 556
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "origin",
+   "state": "KE"
+  },
+  {
+   "id": "CO-KE-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 161
+    }
+   ],
+   "rounding": "half_down",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-00-0",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-KE-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 33
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 133
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-00-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-KE-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 25
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CO-KE-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 160
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 210
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-01-0",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-KE-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 123
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 148
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 173
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-01-1",
+   "level": "city",
+   "name": "Percival",
+   "parent": "CO-KE-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 40
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CO-KE-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 75
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 175
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 250
+    }
+   ],
+   "rounding": "half_even",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-02-0",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-KE-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 228
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 178
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 253
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-02-1",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-KE-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 219
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 244
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 294
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CO-KE-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 37
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 12
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 62
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-03-0",
+   "level": "city",
+   "name": "Northgate",
+   "parent": "CO-KE-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 203
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 153
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "id": "CI-KE-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-KE-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 73
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 23
+    }
+   ],
+   "rounding": "half_even",
+   "state": "KE"
+  },
+  {
+   "id": "ST-LK",
+   "level": "state",
+   "name": "Larkspur",
+   "parent": null,
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 695
+    }
+   ],
+   "rounding": "half_up",
+   "sourcing": "destination",
+   "state": "LK"
+  },
+  {
+   "id": "CO-LK-00",
+   "level": "county",
+   "name": "Ashford County",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 86
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 161
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-00-0",
+   "level": "city",
+   "name": "Eastwick",
+   "parent": "CO-LK-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 174
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 249
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 299
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-00-1",
+   "level": "city",
+   "name": "Wrenfield",
+   "parent": "CO-LK-00",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 14
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CO-LK-01",
+   "level": "county",
+   "name": "Briar County",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 36
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 11
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 111
+    }
+   ],
+   "rounding": "half_down",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-01-0",
+   "level": "city",
+   "name": "Oakhurst",
+   "parent": "CO-LK-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 146
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 96
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 196
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-01-1",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-LK-01",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 199
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 274
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CO-LK-02",
+   "level": "county",
+   "name": "Cinder County",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-02-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-LK-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 201
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 151
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-02-1",
+   "level": "city",
+   "name": "Selby",
+   "parent": "CO-LK-02",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 186
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 286
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CO-LK-03",
+   "level": "county",
+   "name": "Dunmore County",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 27
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-03-0",
+   "level": "city",
+   "name": "Milton",
+   "parent": "CO-LK-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 79
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 129
+    }
+   ],
+   "rounding": "half_even",
+   "state": "LK"
+  },
+  {
+   "id": "CI-LK-03-1",
+   "level": "city",
+   "name": "Harrow",
+   "parent": "CO-LK-03",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 1
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "covers_cities": [
+    "CI-CD-00-0",
+    "CI-CD-02-1"
+   ],
+   "id": "SP-CD-00",
+   "level": "special",
+   "name": "Caldera Transit Authority 0",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 22
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 97
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 47
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "covers_cities": [
+    "CI-MW-00-0",
+    "CI-MW-03-1"
+   ],
+   "id": "SP-MW-01",
+   "level": "special",
+   "name": "Marlowe Crime Control District 1",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 53
+    }
+   ],
+   "rounding": "half_even",
+   "state": "MW"
+  },
+  {
+   "covers_cities": [
+    "CI-TS-01-1",
+    "CI-TS-02-0",
+    "CI-TS-03-1"
+   ],
+   "id": "SP-TS-02",
+   "level": "special",
+   "name": "Tessara Fire District 2",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 87
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 137
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "covers_cities": [
+    "CI-VD-00-1",
+    "CI-VD-02-1"
+   ],
+   "id": "SP-VD-03",
+   "level": "special",
+   "name": "Verdant Stadium District 3",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 99
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 199
+    }
+   ],
+   "rounding": "half_up",
+   "state": "VD"
+  },
+  {
+   "covers_cities": [
+    "CI-OS-02-0",
+    "CI-OS-03-0"
+   ],
+   "id": "SP-OS-04",
+   "level": "special",
+   "name": "Ostara Crime Control District 4",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 97
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 147
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "covers_cities": [
+    "CI-QL-02-0",
+    "CI-QL-03-1"
+   ],
+   "id": "SP-QL-05",
+   "level": "special",
+   "name": "Quillon Crime Control District 5",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 20
+    }
+   ],
+   "rounding": "half_even",
+   "state": "QL"
+  },
+  {
+   "covers_cities": [
+    "CI-BK-00-1",
+    "CI-BK-03-1"
+   ],
+   "id": "SP-BK-06",
+   "level": "special",
+   "name": "Brackenridge Crime Control District 6",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 56
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "covers_cities": [
+    "CI-EW-01-0",
+    "CI-EW-01-1"
+   ],
+   "id": "SP-EW-07",
+   "level": "special",
+   "name": "Ellsworth Stadium District 7",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 12
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "EW"
+  },
+  {
+   "covers_cities": [
+    "CI-FW-03-0",
+    "CI-FW-03-1"
+   ],
+   "id": "SP-FW-08",
+   "level": "special",
+   "name": "Fenwick Crime Control District 8",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 38
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 13
+    }
+   ],
+   "rounding": "half_even",
+   "state": "FW"
+  },
+  {
+   "covers_cities": [
+    "CI-GL-02-1",
+    "CI-GL-03-0"
+   ],
+   "id": "SP-GL-09",
+   "level": "special",
+   "name": "Galena Stadium District 9",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 90
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 115
+    }
+   ],
+   "rounding": "half_up",
+   "state": "GL"
+  },
+  {
+   "covers_cities": [
+    "CI-HC-02-0",
+    "CI-HC-02-1"
+   ],
+   "id": "SP-HC-10",
+   "level": "special",
+   "name": "Halcyon Library District 10",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 17
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 92
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "covers_cities": [
+    "CI-IV-01-1",
+    "CI-IV-03-0"
+   ],
+   "id": "SP-IV-11",
+   "level": "special",
+   "name": "Ironvale Fire District 11",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 96
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 146
+    },
+    {
+     "effective_from": "2025-01-01",
+     "rate_bps": 121
+    }
+   ],
+   "rounding": "half_up",
+   "state": "IV"
+  },
+  {
+   "covers_cities": [
+    "CI-JN-02-0",
+    "CI-JN-03-0"
+   ],
+   "id": "SP-JN-12",
+   "level": "special",
+   "name": "Juniper Fire District 12",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 12
+    }
+   ],
+   "rounding": "half_up",
+   "state": "JN"
+  },
+  {
+   "covers_cities": [
+    "CI-KE-01-0",
+    "CI-KE-01-1",
+    "CI-KE-02-1"
+   ],
+   "id": "SP-KE-13",
+   "level": "special",
+   "name": "Kestrel Stadium District 13",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 83
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "covers_cities": [
+    "CI-LK-00-1",
+    "CI-LK-01-0"
+   ],
+   "id": "SP-LK-14",
+   "level": "special",
+   "name": "Larkspur Library District 14",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 17
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  },
+  {
+   "covers_cities": [
+    "CI-CD-00-0"
+   ],
+   "id": "SP-CD-15",
+   "level": "special",
+   "name": "Caldera Library District 15",
+   "parent": "ST-CD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 42
+    }
+   ],
+   "rounding": "half_up",
+   "state": "CD"
+  },
+  {
+   "covers_cities": [
+    "CI-MW-01-1",
+    "CI-MW-02-0",
+    "CI-MW-03-0"
+   ],
+   "id": "SP-MW-16",
+   "level": "special",
+   "name": "Marlowe Crime Control District 16",
+   "parent": "ST-MW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 100
+    }
+   ],
+   "rounding": "half_even",
+   "state": "MW"
+  },
+  {
+   "covers_cities": [
+    "CI-TS-01-1",
+    "CI-TS-02-1",
+    "CI-TS-03-1"
+   ],
+   "id": "SP-TS-17",
+   "level": "special",
+   "name": "Tessara Fire District 17",
+   "parent": "ST-TS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 29
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 104
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 154
+    }
+   ],
+   "rounding": "half_down",
+   "state": "TS"
+  },
+  {
+   "covers_cities": [
+    "CI-VD-01-0",
+    "CI-VD-02-1"
+   ],
+   "id": "SP-VD-18",
+   "level": "special",
+   "name": "Verdant Stadium District 18",
+   "parent": "ST-VD",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 27
+    },
+    {
+     "effective_from": "2023-10-01",
+     "rate_bps": 127
+    }
+   ],
+   "rounding": "half_down",
+   "state": "VD"
+  },
+  {
+   "covers_cities": [
+    "CI-OS-03-0",
+    "CI-OS-03-1"
+   ],
+   "id": "SP-OS-19",
+   "level": "special",
+   "name": "Ostara Crime Control District 19",
+   "parent": "ST-OS",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 16
+    },
+    {
+     "effective_from": "2024-07-01",
+     "rate_bps": 41
+    }
+   ],
+   "rounding": "half_up",
+   "state": "OS"
+  },
+  {
+   "covers_cities": [
+    "CI-QL-02-1",
+    "CI-QL-03-1"
+   ],
+   "id": "SP-QL-20",
+   "level": "special",
+   "name": "Quillon Fire District 20",
+   "parent": "ST-QL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 54
+    }
+   ],
+   "rounding": "half_up",
+   "state": "QL"
+  },
+  {
+   "covers_cities": [
+    "CI-BK-00-0"
+   ],
+   "id": "SP-BK-21",
+   "level": "special",
+   "name": "Brackenridge Fire District 21",
+   "parent": "ST-BK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 19
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 69
+    }
+   ],
+   "rounding": "half_up",
+   "state": "BK"
+  },
+  {
+   "covers_cities": [
+    "CI-EW-02-0",
+    "CI-EW-02-1",
+    "CI-EW-03-1"
+   ],
+   "id": "SP-EW-22",
+   "level": "special",
+   "name": "Ellsworth Library District 22",
+   "parent": "ST-EW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 46
+    },
+    {
+     "effective_from": "2023-04-01",
+     "rate_bps": 21
+    }
+   ],
+   "rounding": "half_down",
+   "state": "EW"
+  },
+  {
+   "covers_cities": [
+    "CI-FW-00-1",
+    "CI-FW-01-0",
+    "CI-FW-03-0"
+   ],
+   "id": "SP-FW-23",
+   "level": "special",
+   "name": "Fenwick Fire District 23",
+   "parent": "ST-FW",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 19
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 44
+    }
+   ],
+   "rounding": "half_up",
+   "state": "FW"
+  },
+  {
+   "covers_cities": [
+    "CI-GL-00-1",
+    "CI-GL-02-0"
+   ],
+   "id": "SP-GL-24",
+   "level": "special",
+   "name": "Galena Transit Authority 24",
+   "parent": "ST-GL",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 17
+    }
+   ],
+   "rounding": "half_even",
+   "state": "GL"
+  },
+  {
+   "covers_cities": [
+    "CI-HC-02-1"
+   ],
+   "id": "SP-HC-25",
+   "level": "special",
+   "name": "Halcyon Crime Control District 25",
+   "parent": "ST-HC",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 93
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 168
+    },
+    {
+     "effective_from": "2025-07-01",
+     "rate_bps": 143
+    }
+   ],
+   "rounding": "half_up",
+   "state": "HC"
+  },
+  {
+   "covers_cities": [
+    "CI-IV-02-0",
+    "CI-IV-02-1",
+    "CI-IV-03-0"
+   ],
+   "id": "SP-IV-26",
+   "level": "special",
+   "name": "Ironvale Library District 26",
+   "parent": "ST-IV",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 45
+    },
+    {
+     "effective_from": "2024-01-01",
+     "rate_bps": 0
+    }
+   ],
+   "rounding": "half_down",
+   "state": "IV"
+  },
+  {
+   "covers_cities": [
+    "CI-JN-03-0"
+   ],
+   "id": "SP-JN-27",
+   "level": "special",
+   "name": "Juniper Stadium District 27",
+   "parent": "ST-JN",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 51
+    }
+   ],
+   "rounding": "half_even",
+   "state": "JN"
+  },
+  {
+   "covers_cities": [
+    "CI-KE-01-1",
+    "CI-KE-02-1"
+   ],
+   "id": "SP-KE-28",
+   "level": "special",
+   "name": "Kestrel Transit Authority 28",
+   "parent": "ST-KE",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 84
+    },
+    {
+     "effective_from": "2023-07-01",
+     "rate_bps": 184
+    }
+   ],
+   "rounding": "half_up",
+   "state": "KE"
+  },
+  {
+   "covers_cities": [
+    "CI-LK-02-0",
+    "CI-LK-03-1"
+   ],
+   "id": "SP-LK-29",
+   "level": "special",
+   "name": "Larkspur Stadium District 29",
+   "parent": "ST-LK",
+   "rates": [
+    {
+     "effective_from": "2020-01-01",
+     "rate_bps": 78
+    },
+    {
+     "effective_from": "2024-04-01",
+     "rate_bps": 103
+    }
+   ],
+   "rounding": "half_up",
+   "state": "LK"
+  }
+ ],
+ "seed": 20260817
+}
