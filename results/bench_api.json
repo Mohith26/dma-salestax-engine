@@ -1,0 +1,9 @@
+{
+ "requests": 2000,
+ "p50_ms": 1.068,
+ "p95_ms": 1.347,
+ "p99_ms": 1.551,
+ "mean_ms": 1.089,
+ "requests_per_second": 918.4,
+ "note": "in process ASGI TestClient, single thread, includes JSON serialization"
+}

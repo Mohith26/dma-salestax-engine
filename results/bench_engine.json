@@ -1,0 +1,8 @@
+{
+ "lines": 500000,
+ "seed": 7,
+ "elapsed_seconds": 1.711,
+ "lines_per_second": 292304.5,
+ "total_tax_cents_checksum": 2421106843,
+ "note": "single thread, engine only, invoices pre generated in memory"
+}
