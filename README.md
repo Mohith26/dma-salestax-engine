@@ -21,7 +21,18 @@ Each invoice line runs through four stages, and every stage writes to an audit t
 
 The audit trail lists the situs decision, the taxability rule applied, certificate evaluation, and one entry per jurisdiction with rate, base, rounding mode and tax in integer cents. The intent is that a human could reproduce any line total from the audit alone.
 
-## Running it
+## Where things live
+
+```
+data/       committed invented dataset (jurisdictions, taxability, certificates)
+golden/     hand computed golden invoices with the arithmetic in the notes
+src/taxgrid engine, oracle, dataset loader, rounding, FastAPI app
+scripts/    dataset generator, oracle verification, benchmarks
+tests/      88 pytest tests
+results/    JSON output of the measurement runs
+```
+
+## Install and run
 
 ```
 python3 -m venv .venv && .venv/bin/pip install -U pip
@@ -46,18 +57,7 @@ The API has one interesting endpoint, `POST /determine`, which takes an invoice 
 
 Measured numbers and reproduce commands live in RESULTS.md.
 
-## Layout
-
-```
-data/       committed invented dataset (jurisdictions, taxability, certificates)
-golden/     hand computed golden invoices with the arithmetic in the notes
-src/taxgrid engine, oracle, dataset loader, rounding, FastAPI app
-scripts/    dataset generator, oracle verification, benchmarks
-tests/      88 pytest tests
-results/    JSON output of the measurement runs
-```
-
-## Limitations
+## Gaps against a real system
 
 - The dataset is invented. Real jurisdictions have vastly messier boundaries, overlapping districts, and rates that do not come from a seeded generator.
 - There is no address geocoding. Situs starts from a known city id; mapping street addresses to jurisdictions is a separate hard problem I did not touch.

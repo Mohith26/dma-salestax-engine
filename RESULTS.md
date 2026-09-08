@@ -60,4 +60,4 @@ Output: `results/bench_api.json`. This measures the app stack (routing, pydantic
 
 ## Caveats
 
-The oracle shares the dataset files and my reading of the rules with the engine, so it protects against implementation bugs, not specification misunderstandings; the hand computed goldens are the check on the latter. Timings move a few percent run to run and are specific to this machine. The seeded line generator draws unit prices from 1 cent to 500.00, so very large invoice amounts are only covered by targeted tests, not the randomized million.
+The oracle shares the dataset files and my reading of the rules with the engine, so it protects against implementation bugs, not misreadings of the rules themselves; the hand computed goldens are the check on the latter. Timings move a few percent run to run and are specific to this machine. The seeded line generator draws unit prices from 1 cent to 500.00, so very large invoice amounts are only covered by targeted tests, not the randomized million.
